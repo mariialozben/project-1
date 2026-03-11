@@ -18,7 +18,7 @@ function Header() {
   return (
     <header className="header">
       <div className="header-logo">
-        <span className="header-logo-text">Mariia</span>
+        <span className="header-logo-text">Project 1</span>
       </div>
       <div className="header-user" ref={dropdownRef}>
         <button className="header-user-trigger" onClick={() => setIsOpen(o => !o)}>
